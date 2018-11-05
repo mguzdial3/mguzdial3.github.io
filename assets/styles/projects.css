@@ -1,0 +1,25 @@
+.projects__header {
+  text-align: center;
+  font-size: var(--h2-size);
+  margin-bottom: var(--h-margin-bottom);
+}
+
+.projects__list li {
+  padding: var(--news-item-padding);
+  padding-top: 0;
+}
+
+.projects__list li h3 {
+  font-size: var(--h3-size);
+  margin-bottom: calc( 0.5 * var(--h-margin-bottom));
+}
+
+.projects__list li time {
+  margin-bottom: var(--h-margin-bottom);
+  display: block;
+}
+
+.projects__list li a {
+  display: block;
+  margin: 1.5rem 0;
+}
