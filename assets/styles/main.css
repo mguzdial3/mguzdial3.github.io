@@ -31,6 +31,7 @@ a, a:visited {
 }
 
 h1, h2, h3 {
+  font-family: 'Chivo', 'Lato', 'Helvetica', sans-serif;
   font-weight: bold;
 }
 
