@@ -60,7 +60,7 @@ h1, h2, h3 {
   -webkit-text-fill-color: transparent;
 
   text-align: center;
-  color: white;
+  color: var(--primary-color);
 }
 
 .spotlight__header {
