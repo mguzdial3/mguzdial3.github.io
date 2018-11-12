@@ -103,7 +103,7 @@ h1, h2, h3 {
 
 /* This section basically says: the ratio (of width) that the picture, research-interests section, and at-a-glance section is 3:4:5 */
 
-.about__picture {
+.about__picture-container {
   flex: 3;
 }
 
@@ -116,6 +116,10 @@ h1, h2, h3 {
 }
 
 /*  */
+
+.about__picture {
+  width: 100%;
+}
 
 .contact__header, .news__header {
   text-align: center;
