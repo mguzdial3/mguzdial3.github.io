@@ -57,6 +57,10 @@ h1, h2, h3 {
 
 /* INDEX PAGE */
 
+.spotlight__container, .spotlight__container:visited {
+  text-decoration: none;
+}
+
 .spotlight__content-container {
 
   background-image: linear-gradient(45deg, var(--tertiary-color) 0%, var(--primary-color) 100%);
