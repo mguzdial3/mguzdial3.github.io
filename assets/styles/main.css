@@ -85,11 +85,33 @@ h1, h2, h3 {
 }
 
 .about__content-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  justify-content: space-between;
 }
 
-.about__header, .contact__header, .news__header {
+.about__content-container > * {
+  padding-right: 3rem;
+}
+
+.about__content-container > *:last-child {
+  padding-right: 0;
+}
+
+/* This section basically says: the ratio (of width) that the picture, research-interests section, and at-a-glance section is 3:4:5 */
+
+.about__picture {
+  flex: 3;
+}
+
+.research-interests__section {
+  flex: 4;
+}
+
+.at-a-glance__section {
+  flex: 5;
+}
+
+.contact__header, .news__header {
   text-align: center;
   font-size: var(--h2-size);
   margin-bottom: var(--h-margin-bottom);
