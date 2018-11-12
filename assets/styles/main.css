@@ -12,6 +12,10 @@
 
   --h-margin-bottom: 1rem;
 
+  --spacy-line-height: 1.5rem;
+
+  --about-content-spacing: 3rem;
+
   --news-item-padding: 2rem;
 
   font-family: 'Lato', 'Helvetica', sans-serif;
@@ -90,11 +94,11 @@ h1, h2, h3 {
 }
 
 .about__content-container > * {
-  padding-right: 3rem;
+  margin-right: var(--about-content-spacing);
 }
 
 .about__content-container > *:last-child {
-  padding-right: 0;
+  margin-right: 0;
 }
 
 /* This section basically says: the ratio (of width) that the picture, research-interests section, and at-a-glance section is 3:4:5 */
@@ -111,6 +115,8 @@ h1, h2, h3 {
   flex: 5;
 }
 
+/*  */
+
 .contact__header, .news__header {
   text-align: center;
   font-size: var(--h2-size);
@@ -124,14 +130,15 @@ h1, h2, h3 {
 
 .at-a-glance__section, .research-interests__section {
   margin: 0 auto;
+  line-height: var(--spacy-line-height);
+}
+
+.at-a-glance__section p {
+  margin-bottom: var(--spacy-line-height);
 }
 
 .research-interests__list li::before {
   content: "- ";
-}
-
-.research-interests__list li {
-  line-height: 1.5rem;
 }
 
 .contact__content-container {
