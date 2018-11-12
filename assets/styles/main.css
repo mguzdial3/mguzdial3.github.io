@@ -59,7 +59,7 @@ h1, h2, h3 {
 
 .spotlight__content-container {
 
-  background-image: linear-gradient(45deg, var(--primary-color) 35%, var(--secondary-color) 100%);
+  background-image: linear-gradient(45deg, var(--tertiary-color) 0%, var(--primary-color) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
@@ -142,16 +142,19 @@ h1, h2, h3 {
 }
 
 .contact__content-container {
+  padding: 2.5rem;
+
   text-align: center;
 
-  background-image: linear-gradient(45deg, var(--tertiary-color) 35%, var(--primary-color) 135%);
+  background-image: linear-gradient(45deg, var(--tertiary-color) 35%, var(--primary-color) 175%);
 
   color: white;
+  text-decoration: none;
 
-  border-radius: 62% 38% 52% 48% / 54% 44% 56% 46% ;
+  /* border-radius: 62% 38% 52% 48% / 54% 44% 56% 46% ; */
 }
 
-.contact__content-container a, .contact__content-container a:visited {
+.contact__content-container, .contact__content-container:visited {
   color: white;
 }
 
