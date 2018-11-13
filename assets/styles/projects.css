@@ -1,25 +1,44 @@
+:root {
+  --content-text-size: 1.25rem
+}
+
+.projects__container {
+  line-height: var(--spacy-line-height);
+}
+
 .projects__header {
   text-align: center;
   font-size: var(--h2-size);
   margin-bottom: var(--h-margin-bottom);
 }
 
-.projects__list li {
-  padding: var(--news-item-padding);
-  padding-top: 0;
+.project {
+  padding: var(--news-item-padding) 0;
 }
 
-.projects__list li h3 {
+.project .project__header {
   font-size: var(--h3-size);
   margin-bottom: calc( 0.5 * var(--h-margin-bottom));
 }
 
-.projects__list li time {
+.project .time {
   margin-bottom: var(--h-margin-bottom);
   display: block;
 }
 
-.projects__list li a {
+.project__multimedia {
+  text-align: center;
+}
+
+.project__content {
+  font-size: var(--content-text-size);
+}
+
+.project .link {
   display: block;
   margin: 1.5rem 0;
+}
+
+.project .link::before {
+  content: "More details on "
 }
