@@ -5,7 +5,7 @@
 }
 
 .press__list li {
-  padding: var(--news-item-padding);
+  padding: var(--list-item-padding);
   padding-top: 0;
 }
 

@@ -16,7 +16,7 @@
 
   --about-content-spacing: 3rem;
 
-  --news-item-padding: 2rem;
+  --list-item-padding: 2rem;
 
   font-family: 'Lato', 'Helvetica', sans-serif;
 }
@@ -51,7 +51,7 @@ h1, h2, h3 {
   padding: 2.5rem;
 }
 
-/* INDEX PAGE */
+/* STYLES SHARED AMONG ALL PAGES (SPOTLIGHT/HEADER, NAV, ETC) */
 
 .spotlight__container, .spotlight__container:visited {
   text-decoration: none;
@@ -87,109 +87,4 @@ h1, h2, h3 {
 .nav-bar__list {
   display: flex;
   justify-content: space-around;
-}
-
-.about__container {
-  width: 90vw;
-}
-
-.about__content-container {
-  display: flex;
-  justify-content: space-between;
-
-  font-size: 1.25rem;
-}
-
-.about__content-container > * {
-  margin-right: var(--about-content-spacing);
-}
-
-.about__content-container > *:last-child {
-  margin-right: 0;
-}
-
-/* This section basically says: the ratio (of width) that the picture, research-interests section, and at-a-glance section is 3:4:7 */
-
-.about__picture-container {
-  flex: 3;
-}
-
-.research-interests__section {
-  flex: 4;
-}
-
-.at-a-glance__section {
-  flex: 7;
-}
-
-/*  */
-
-.about__picture {
-  width: 100%;
-}
-
-.contact__header, .news__header {
-  text-align: center;
-  font-size: var(--h2-size);
-  margin-bottom: var(--h-margin-bottom);
-}
-
-.at-a-glance__header, .research-interests__header {
-  font-size: var(--h3-size);
-  margin-bottom: var(--h-margin-bottom);
-}
-
-.at-a-glance__section, .research-interests__section {
-  margin: 0 auto;
-  line-height: var(--spacy-line-height);
-}
-
-.at-a-glance__section p {
-  margin-bottom: var(--spacy-line-height);
-}
-
-.research-interests__list li::before {
-  content: "- ";
-}
-
-.contact__content-container {
-  padding: 2.5rem;
-
-  text-align: center;
-
-  background-image: linear-gradient(45deg, var(--tertiary-color) 35%, var(--primary-color) 175%);
-
-  color: white;
-  text-decoration: none;
-
-  /* border-radius: 62% 38% 52% 48% / 54% 44% 56% 46% ; */
-}
-
-.contact__link {
-  font-weight: normal;
-  line-height: var(--spacy-line-height);
-}
-
-.contact__content-container a, .contact__content-container a:visited {
-  color: white;
-}
-
-.news__list li {
-  padding: var(--news-item-padding);
-  padding-top: 0;
-}
-
-.news__list li h3 {
-  font-size: var(--h3-size);
-  margin-bottom: calc( 0.5 * var(--h-margin-bottom));
-}
-
-.news__list li time {
-  margin-bottom: var(--h-margin-bottom);
-  display: block;
-}
-
-.news__list li a {
-  display: block;
-  margin: 1.5rem 0;
 }
