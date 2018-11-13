@@ -165,7 +165,12 @@ h1, h2, h3 {
   /* border-radius: 62% 38% 52% 48% / 54% 44% 56% 46% ; */
 }
 
-.contact__content-container, .contact__content-container:visited {
+.contact__link {
+  font-weight: normal;
+  line-height: var(--spacy-line-height);
+}
+
+.contact__content-container a, .contact__content-container a:visited {
   color: white;
 }
 
