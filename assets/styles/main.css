@@ -24,8 +24,6 @@
 /* ELEMENTS */
 
 body {
-  width: 75vw;
-  margin: 0 auto;
   background-color: rgba(238,238,238,.25);
   color: black;
 }
@@ -48,6 +46,8 @@ h1, h2, h3 {
 }
 
 .row, .centered-row {
+  width: 75vw;
+  margin: 0 auto;
   padding: 2.5rem;
 }
 
@@ -89,9 +89,15 @@ h1, h2, h3 {
   justify-content: space-around;
 }
 
+.about__container {
+  width: 90vw;
+}
+
 .about__content-container {
   display: flex;
   justify-content: space-between;
+
+  font-size: 1.25rem;
 }
 
 .about__content-container > * {
@@ -102,7 +108,7 @@ h1, h2, h3 {
   margin-right: 0;
 }
 
-/* This section basically says: the ratio (of width) that the picture, research-interests section, and at-a-glance section is 3:4:5 */
+/* This section basically says: the ratio (of width) that the picture, research-interests section, and at-a-glance section is 3:4:7 */
 
 .about__picture-container {
   flex: 3;
@@ -113,7 +119,7 @@ h1, h2, h3 {
 }
 
 .at-a-glance__section {
-  flex: 5;
+  flex: 7;
 }
 
 /*  */
