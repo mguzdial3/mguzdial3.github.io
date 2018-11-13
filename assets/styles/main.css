@@ -47,7 +47,7 @@ h1, h2, h3 {
   justify-content: space-around;
 }
 
-.row, .centered-row section {
+.row, .centered-row {
   padding: 2.5rem;
 }
 
