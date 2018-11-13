@@ -3,6 +3,7 @@
   --source-size: 1.25rem;
   --date-size: 1.25rem;
 
+  --headline-margin: 0.75rem;
   --press-line-height: 2rem;
 }
 
@@ -24,10 +25,10 @@
 .press__list .headline {
   display: block;
 
+  margin-bottom: var(--headline-margin);
+
   font-size: var(--headline-size);
   line-height: var(--press-line-height);
-
-  margin-bottom: 0.75rem;
 }
 
 .press__list .headline::before, .press__list .source::before {
