@@ -112,15 +112,6 @@
   text-decoration: underline;
 }
 
-.news__list .headline::before, .news__list .source::before {
-  content: "- ";
-  /* font-size: calc( 1.15 * var(--headline-size) ); */
-}
-
-.news__list .source::before {
-  visibility: hidden;
-}
-
 .news__list .source, .news__list .date {
   font-size: var(--source-size);
 
