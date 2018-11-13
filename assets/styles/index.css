@@ -120,5 +120,5 @@
 }
 
 .news__list .date::before {
-  content: ", ";
+  content: "—";
 }

@@ -48,5 +48,5 @@
 }
 
 .press__list .date::before {
-  content: ", ";
+  content: "—";
 }
