@@ -1,0 +1,61 @@
+:root {
+  --headline-size: 1.5rem;
+  --content-text-size: 1.25rem;
+  --link-out-size: 1.25rem;
+
+  --headline-margin: 0.75rem;
+  --description-line-height: 2rem;
+}
+
+.datasets__container {
+  line-height: var(--spacy-line-height);
+}
+
+.datasets__header {
+  text-align: center;
+  font-size: var(--h2-size);
+  margin-bottom: var(--h-margin-bottom);
+}
+
+.datasets .list li {
+  padding: var(--list-item-padding);
+}
+
+/* .press__list > li > a {
+  font-weight: normal;
+  text-decoration: none;
+} */
+
+.datasets .header {
+  display: block;
+
+  margin-bottom: var(--headline-margin);
+
+  font-size: var(--headline-size);
+  line-height: var(--press-line-height);
+}
+
+.datasets .header::before {
+  content: "☞ ";
+  /* font-size: calc( 1.15 * var(--headline-size) ); */
+}
+
+.datasets .content {
+  font-size: var(--content-text-size);
+}
+
+.datasets .link-out {
+  display: block;
+  margin: 1.5rem 0;
+}
+
+/* .press__list .source, .press__list .date {
+  font-size: var(--source-size);
+
+  color: gray;
+  font-style: italic;
+}
+
+.press__list .date::before {
+  content: "—";
+} */
